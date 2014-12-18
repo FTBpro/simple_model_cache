@@ -74,7 +74,7 @@ module SimpleModelCache
 		end
 
 		def cache_key(field, value)
-			"#{field}:#{value}"
+			"#{self.name}#{field}:#{value}"
 		end
 
 	end
